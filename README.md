@@ -4,7 +4,7 @@
 
 [![npm](https://img.shields.io/npm/v/dplayer-thumbnails.svg?style=flat-square)](https://www.npmjs.com/package/dplayer-thumbnails)
 [![npm](https://img.shields.io/npm/dt/dplayer-thumbnails.svg?style=flat-square)](https://www.npmjs.com/package/dplayer-thumbnails)
-[![devDependency Status](https://img.shields.io/david/dev/MoePlayer/DPlayer-thumbnails.svg?style=flat-square)](https://david-dm.org/MoePlayer/DPlayer-thumbnails#info=devDependencies)
+[![dependency Status](https://img.shields.io/david/MoePlayer/DPlayer-thumbnails.svg?style=flat-square)](https://david-dm.org/MoePlayer/DPlayer-thumbnails#info=dependencies)
 
 ## Install
 
