@@ -1,0 +1,36 @@
+{
+  "dependencies": {
+    "cli-spinner": "^0.2.6",
+    "commander": "^2.11.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "jimp": "^0.2.28",
+    "node-sprite-generator": "^0.10.2",
+    "rimraf": "^2.6.1"
+  },
+  "name": "dplayer-thumbnails",
+  "version": "0.0.1",
+  "description": "Generate thumbnails for DPlayer",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MoePlayer/DPlayer-thumbnails.git"
+  },
+  "bin": {
+    "dplayer-thumbnails": "./index.js"
+  },
+  "keywords": [
+    "thumbnails",
+    "player",
+    "dplayer"
+  ],
+  "author": "DIYgod",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MoePlayer/DPlayer-thumbnails/issues"
+  },
+  "homepage": "https://github.com/MoePlayer/DPlayer-thumbnails#readme"
+}
