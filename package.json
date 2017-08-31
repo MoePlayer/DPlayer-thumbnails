@@ -1,6 +1,6 @@
 {
   "name": "dplayer-thumbnails",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Generate thumbnails for DPlayer",
   "main": "index.js",
   "devDependencies": {},

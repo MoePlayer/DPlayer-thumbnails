@@ -18,7 +18,7 @@ var startTime = +new Date();
 var tmp = os.tmpdir() + '/dplayer-thumbnails'
 
 program
-    .version('0.0.1')
+    .version('0.0.3')
     .usage('[options] <file>')
     .option('-o, --output <path>', 'thumbnails path, default: ./thumbnails.jpg', './thumbnails.jpg')
     .option('-q, --quality <n>', 'thumbnails quality, default: 60', 60)
