@@ -1,4 +1,9 @@
 {
+  "name": "dplayer-thumbnails",
+  "version": "0.0.2",
+  "description": "Generate thumbnails for DPlayer",
+  "main": "index.js",
+  "devDependencies": {},
   "dependencies": {
     "cli-spinner": "^0.2.6",
     "commander": "^2.11.0",
@@ -7,11 +12,6 @@
     "node-sprite-generator": "^0.10.2",
     "rimraf": "^2.6.1"
   },
-  "name": "dplayer-thumbnails",
-  "version": "0.0.1",
-  "description": "Generate thumbnails for DPlayer",
-  "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

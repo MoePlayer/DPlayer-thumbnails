@@ -42,7 +42,8 @@ program
                         tmp + '/*.png'
                     ],
                     spritePath: tmp + '/sprite.png',
-                    stylesheetPath: tmp + '/sprite.css'
+                    stylesheetPath: tmp + '/sprite.css',
+                    layout: 'horizontal'
                 }, function (err) {
                     spinner.stop(true);
                     console.log('[2/3] Sprite generated!');
