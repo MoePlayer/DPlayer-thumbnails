@@ -18,7 +18,7 @@ var startTime = +new Date();
 var tmp = os.tmpdir() + '/dplayer-thumbnails'
 
 program
-    .version('0.0.4')
+    .version('0.0.5')
     .usage('[options] <file>')
     .option('-o, --output <path>', 'thumbnails path, default: ./thumbnails.jpg', './thumbnails.jpg')
     .option('-q, --quality <n>', 'thumbnails quality, default: 60', 60)
@@ -43,7 +43,8 @@ program
                     ],
                     spritePath: tmp + '/sprite.png',
                     stylesheetPath: tmp + '/sprite.css',
-                    layout: 'horizontal'
+                    layout: 'horizontal',
+                    compositor: 'jimp'
                 }, function (err) {
                     spinner.stop(true);
                     console.log('[2/3] Sprite generated!');
